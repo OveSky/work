@@ -1,0 +1,60 @@
+td {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.tdtbg {
+	background-color: #39867B;
+	color:#FFFFFF;
+}
+
+.tdbg {
+	background-color: #C6EBDE;
+}
+
+input.text {
+	font-size:12px;
+	color: #333;
+	background-color: #F0F0FF;
+	border: 1px #000 solid;
+}
+
+.title {
+	font-size: 14px;
+	font-family: ºÚÌå;
+	color: #000;
+}
+
+.tborder {
+	border:1px solid #39867B;
+}
+
+A:link {
+	color:#000;
+	text-decoration:none;
+}
+
+A:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+A:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+
+A.hotexamA:link {
+	color:#0000FF;
+	text-decoration:none;
+}
+
+A.hotexamA:visited {
+	color:#0000FF;
+	text-decoration:none;
+}
+
+A.hotexamA:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}

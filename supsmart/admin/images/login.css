@@ -1,0 +1,99 @@
+html { height:100%;font-size:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+body { margin:0; min-height:100%;font-size:12px; line-height:25px; color:#666; position:relative; background:url(../images/bj.gif) center top no-repeat #fff;}
+body,input,select,textarea,button,table { font-family:宋体, "Microsoft YaHei", 微软雅黑;}
+img { width:auto\9; height:auto; max-width:100%; vertical-align:middle; border:0; -ms-interpolation-mode:bicubic; }
+::-moz-selection { background: #e60012; color: #fff; text-shadow: none; }
+::selection { background: #e60012; color: #fff; text-shadow: none; }
+
+.row-fluid { width:100%; *zoom:1; }
+.row-fluid:before, .row-fluid:after { display:table; line-height:0; content:""; }
+.row-fluid:after { clear:both; }
+.row-fluid .span12 { width:100%; *width:99.94680851063829%; }
+.row-fluid .span13 { width:62%; *width:99.94680851063829%; }
+
+.login { width:300px; margin:-230px 0 0 -150px; position:absolute; left:50%; top:50%;}
+.login-btn { margin:15px 20px 20px 20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; -ms-box-sizing:border-box; }
+
+.icon { position:absolute; margin:10px;padding:3px 0 3px 5px; width:23px; font-size:14px;border-right:1px solid #d5d5d5; text-align:center; color:#666;}
+    .icon-user,.icon-lock,.icon-qrcode { float:left;width:15px;height:15px;background:url(../images/login.png) no-repeat;}
+	.icon-lock {background:url(../images/login.png) 0 -51px no-repeat;}
+	.icon-qrcode {background:url(../images/login.png) 0 -101px no-repeat;}
+.code{ position:absolute; margin-left:180px; padding-top:7px;}
+.control-group { padding:10px 20px 0 20px; border:none;}
+.well { background:#fefefe; border:1px solid #ccc; position:relative;
+	-moz-box-shadow: 0 1px 2px rgba(160,160,160,0.4); 
+	-webkit-box-shadow: 0 1px 2px rgba(160,160,160,0.4); 
+	box-shadow: 0 1px 2px rgba(160,160,160,0.4); }
+
+/*===== Navbar =====*/
+.navbar { *position:relative; *z-index:2; text-align:center;}
+.navbar p { color:#999;margin-bottom:20px;}
+.navbar-inner { padding-left:14px; border-bottom:1px solid #d5d5d5; position:relative;  margin-bottom:10px; 
+  background:#f7f7f7;
+  background:-moz-linear-gradient(top, #ffffff, #f7f7f7);
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f7f7f7));
+  background:-webkit-linear-gradient(top, #ffffff, #f7f7f7);
+  background:-o-linear-gradient(top, #ffffff, #f7f7f7);
+  background:linear-gradient(to bottom, #ffffff, #f7f7f7);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=0);
+}
+.navbar-inner li { margin:0; padding:10px 15px 10px 4px; display:block; float:left; color:#999; font-size:12px;}
+.navbar-inner li span {color:#333; font-size:14px; font-weight:bold;}
+.navbar-inner:before, .navbar-inner:after { display:table; line-height:0; content:""; }
+.navbar-inner:after { clear:both; }
+
+.nav_foot { position:absolute;width:100%;height:auto;overflow:hidden;text-align:center;left:0;top:50%; margin-top:145px;line-height:22px;color:#888;font-family:Verdana, Geneva, sans-serif;}
+.nav_foot a {color:#888; text-decoration:none;}
+.nav_foot a:hover { text-decoration:underline;}
+
+
+/*===== 输入框 =====*/
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+.uneditable-input { display:inline-block; padding:8px 7px 8px 50px; font-size:13px; color:#333; vertical-align:middle; height:40px; border-radius:4px}
+
+textarea,
+input[type="text"],
+input[type="password"],
+.uneditable-input { background-color:#fff; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; border:1px solid #d5d5d5;
+  box-shadow:0 0 0 2px #f8f8f8;
+  -webkit-box-shadow:0 0 0 2px #f8f8f8;
+  -moz-box-shadow:0 0 0 2px #f8f8f8;
+  -webkit-transition:border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition:border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition:border linear 0.2s, box-shadow linear 0.2s;
+          transition:border linear 0.2s, box-shadow linear 0.2s;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+.uneditable-input:focus { outline:0; border:1px solid #1767a6;
+	border-color: rgba(69, 145, 207, 0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(69, 145, 207, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(69, 145, 207, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(69, 145, 207, 0.6);
+    outline: 0;
+  /* IE6-9 */
+}
+
+/*===== Buttons =====*/
+.btn { cursor:pointer; text-align:center; color:#555; font-size:18px;display:inline-block;padding:8px 12px 8px 12px; border:0; border-radius:4px;}
+.btn:hover { opacity:0.90; filter:alpha(opacity=90); -webkit-transition:opacity 0.2s ease-in-out; -moz-transition:opacity 0.2s ease-in-out; transition:opacity 0.2s ease-in-out; color:#606060; }
+.btn-primary:hover, .btn-info:hover, .btn-warning:hover, .btn-success:hover, .btn-danger:hover, .btn-inverse:hover { color:#fff; }
+.btn:focus { outline:0; }
+
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block { width:100%; }
+.btn-danger {
+  color:#fff;
+  background:#4591cf;
+  background:-moz-linear-gradient(top, #4591cf, #4591cf);
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#4591cf), to(#4591cf));
+  background:-webkit-linear-gradient(top, #4591cf, #4591cf);
+  background:-o-linear-gradient(top, #4591cf, #4591cf);
+  background:linear-gradient(to bottom, #4591cf, #4591cf);
+  border-bottom: 2px solid #1767a6;
+}
+.btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] { background:#297dbd; color:#fff;}

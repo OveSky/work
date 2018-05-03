@@ -1,0 +1,17 @@
+*{ margin:0; padding:0;}
+img{ border:0;}
+ul,li{ list-style-type:none;}
+.turn{ width:302px; height:134px; border:1px #000100 solid; margin:30px; position:relative; overflow:hidden;}
+.turn-loading{ width:302px; height:134px; position:absolute; z-index:4; overflow:hidden; background:#202f42;}
+.turn-loading img{ width:32px; height:32px; margin:51px 0 0 135px;}
+.turn-pic li{ position:absolute; top:0px; left:0px; filter:alpha(opacity=0); opacity:0;}
+.turn-pic li img{ width:302px; height:134px; overflow:hidden;} 
+.turn-bg{ width:302px; height:32px; overflow:hidden; background:#000; position:absolute; z-index:2; bottom:0; filter:alpha(opacity=70); opacity:0.7;}
+.turn-tit{ font-size:12px;}
+.turn-tit a{ color:#afafaf; text-decoration:none;}
+.turn-tit a:hover{ color:#ffb02b; text-decoration:none;}
+.turn-tit li{ position:absolute; z-index:3; bottom:-20px; left:5px;}
+.turn-btn{ position:absolute; z-index:3; font-size:12px; color:#afafaf; bottom:8px; right:15px;}
+.turn-btn .lb,.turn-btn .rb{ width:6px; height:9px; background:url(img/btn.png) no-repeat; overflow:hidden; position:absolute; top:3px; left:-10px; cursor:pointer;}
+.turn-btn .rb{ background-position:-6px 0; left:21px;}
+.turn-btn span{ text-align:center;}

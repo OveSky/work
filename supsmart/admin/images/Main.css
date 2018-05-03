@@ -1,0 +1,52 @@
+﻿@CHARSET "UTF-8";
+/* =======================================================================
+   Code for IdeaCMS后台管理
+   Vision : v6.0
+*/
+
+/*基本信息*/
+body { margin: 0;padding: 0;font:12px 宋体;line-height:18px;}
+img{ border:0;}
+
+/*框架头部*/
+#uptop {margin:0 auto;width:100%;height:69px;background:url(../images/top_bg.gif) repeat-x;border-bottom:1px #1e6fb0 solid;}
+    .up_logo { float:left;width:400px;height:34px;padding-top:17px;padding-left:14px;}
+	
+	.up_rctr { float:right;width:auto;height:69px;background:#1767a6;border-left:1px #2272b1 solid;padding:0 14px;color:#6aa8d9;font-family:微软雅黑;font-size:13px;}
+	    .up_pic { margin-top:10px;float:left;width:50px;height:50px;-moz-border-radius: 25px; -webkit-border-radius: 25px;border-radius:25px;background:url(../images/tx.jpg); background-size:50px 50px;display:inline;}
+		.up_ptxt { float:left;width:auto;height:40px;padding-top:15px;line-height:20px;padding-left:12px;}
+		.up_ico1,.up_ico2,.up_ico3 { float:left;width:auto;height:33px;background:url(../images/ico_bj.png) center 14px no-repeat;padding-top:36px; cursor:pointer;}
+		.up_ico2 {background:url(../images/ico_sx.png) center 14px no-repeat;}
+		.up_ico3 {background:url(../images/ico_tc.png) center 14px no-repeat;}
+
+/* 内容定义 */
+.main_left { margin:0 auto;float:left;width:155px;font-size:14px;font-family:微软雅黑;font-weight:bold;}
+    .left_c11,.left_c12,.left_c21,.left_c22,.left_c31,.left_c32,.left_c41,.left_c42,.left_c51,.left_c52,.left_c61,.left_c62,.left_c71,.left_c72,.left_c81,.left_c82,.left_c91,.left_c92 { float:left;width:100%;height:46px;background:url(../images/ico1.png) 14px 14px no-repeat;color:#ccf3ff;border-bottom:1px #1e6fb0 solid; cursor:pointer;}
+	.left_c12,.left_c22,.left_c32,.left_c42,.left_c52,.left_c62,.left_c72,.left_c82,.left_c92 {background:url(../images/ico1.png) 14px -25px no-repeat #eaf7ff;color:#ccf3ff;}
+	
+	.left_c21,.left_c22 {background:url(../images/ico2.png) 14px 14px no-repeat;}
+	.left_c22 {background:url(../images/ico2.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c31,.left_c32 {background:url(../images/ico3.png) 14px 14px no-repeat;}
+	.left_c32 {background:url(../images/ico3.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c41,.left_c42 {background:url(../images/ico4.png) 14px 14px no-repeat;}
+	.left_c42 {background:url(../images/ico4.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c51,.left_c52 {background:url(../images/ico5.png) 14px 14px no-repeat;}
+	.left_c52 {background:url(../images/ico5.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c61,.left_c62 {background:url(../images/ico6.png) 14px 14px no-repeat;}
+	.left_c62 {background:url(../images/ico6.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c71,.left_c72 {background:url(../images/ico7.png) 14px 14px no-repeat;}
+	.left_c72 {background:url(../images/ico7.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c81,.left_c82 {background:url(../images/ico8.png) 14px 14px no-repeat;}
+	.left_c82 {background:url(../images/ico8.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_c91,.left_c92 {background:url(../images/ico9.png) 14px 14px no-repeat;}
+	.left_c92 {background:url(../images/ico9.png) 14px -25px no-repeat #eaf7ff;}
+	
+	.left_txt1,.left_txt2 { margin:14px 0 0 42px;float:left;width:104px;height:18px;display:inline;border-left:1px #1e6fae solid;padding-left:8px;}
+	.left_txt2 { color:#165e99;border-left:1px #a2d2f6 solid;}
